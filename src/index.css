@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #000;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__lyst {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.header__item {
+  display: inline-block;
+  margin: 0px 0px 0px 10px;
+  font-family: Trattatello;
+}
+
+.header__link {
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  transition: 0.4s;
+  padding: 14px;
+}
+
+.header__link:hover {
+  color: white;
+}
+
+.header__link:hover:before {
+  transform: scale(1.2);
+  -webkit-transform: scaleY(1.2);
+  opacity: 1;
+}
+
+.header__link:hover:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.header__link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid hsl(150, 4%, 91%);
+  border-bottom: 2px solid hsl(150, 4%, 91%);
+  transition: 0.4s;
+  transform: scaleY(2);
+  background: yellow;
+  z-index: -1;
+  opacity: 0;
+} h1 {
+  color: yellow;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+
+h2 {
+  color: yellow;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+p{
+  color:white;
+}
+
+
+img {
+  object-fit: cover;
+}
+
+.flips {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.flip {
+  width: 40%;
+  font-size: 24px;
+  margin: 100px 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-blue {
+  color: palevioletred;
+}
+
+.bg-circle-outline a,
+a:hover,
+.media a:focus {
+  text-decoration: none !important;
+  outline: none;
+  color: #970b0b;
+}
+
+
+.copy-right {
+  background-color: black;
+  width: 100%
+}
