@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,19 +10,19 @@ const Navbar = () => {
             </button>
             <ul className="header__lyst">
                 <li className="header__item">
-                    <a data-aos="flip-down" data-aos-delay="500" data-aos-duration href="index.html" className="header__link">Главный</a>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="home" className="header__link">Главный</NavLink>
                 </li>
                 <li className="header__item">
-                    <a data-aos="flip-down" data-aos-delay="500" data-aos-duration href="index1.html" className="header__link">О нас</a>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="about" className="header__link">О нас</NavLink>
                 </li>
                 <li className="header__item">
-                    <a data-aos="flip-down" data-aos-delay="500" data-aos-duration href="index2.html" className="header__link">Курсы</a>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="kurs" className="header__link">Курсы</NavLink>
                 </li>
                 <li className="header__item">
-                    <a data-aos="flip-down" data-aos-delay="500" data-aos-duration href="index3.html" className="header__link">Мероприятия</a>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="" className="header__link">Мероприятия</NavLink>
                 </li>
                 <li className="header__item">
-                    <a data-aos="flip-down" data-aos-delay="500" data-aos-duration href="index4.html" className="header__link">Contacts</a>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="Contacts" className="header__link">Contacts</NavLink>
                 </li>
             </ul>
         </nav>
