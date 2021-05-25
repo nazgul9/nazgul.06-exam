@@ -21,7 +21,7 @@ const Contacts = () => {
         <div class="flip " data-aos="zoom-in">
             <div class="bg-circle-outline d-inline-block">
                 <a href="https://twitter.com/" class="text-white">
-                    <i class="fa fa-2x fa-fw fa-twitter color-blue"></i></a>
+                    <i class="fa fa-2x fa-fw fa-twitter blue-blue"></i></a>
             </div>
         </div>
         <div class="flip" data-aos="zoom-in-up">
@@ -33,7 +33,7 @@ const Contacts = () => {
         <div class="flip" data-aos="zoom-in-down">
             <div class="bg-circle-outline ">
                 <a href="https://www.whatsapp.com/company/" class="text-white">
-                    <i class="fa fa-2x fa-fw fa-linkedin color-blue"></i></a>
+                    <i class="fa fa-2x fa-fw fa-whatsapp color-white"></i></a>
             </div>
         </div>
     </div>
