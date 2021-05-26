@@ -2,8 +2,10 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-    
+        <>
+        <h1 class="text-center mb-5" data-aos="flip-down" data-aos-delay="500" data-aos-duration> CONTACTS</h1>
         <div class="flips">
+           
         <div class="flip" data-aos="zoom-in-left">
             <h2>Наш адрес: <br/> ул.Ленина 318</h2>
         </div>
@@ -37,7 +39,7 @@ const Contacts = () => {
             </div>
         </div>
     </div>
-
+</>
 
     );
 };

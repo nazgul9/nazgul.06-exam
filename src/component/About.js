@@ -4,7 +4,7 @@ const About = () => {
     return (
 
         <main>
-            <h1 class="text-center mb-5" data-aos="flip-down" data-aos-delay="500" data-aos-duration> IT-Park Academy</h1>
+            <h1 class="text-center mb-5" data-aos="flip-down" data-aos-delay="500" data-aos-duration> О НАС</h1>
             <div class="flips">
 
                 <div class="flip" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">

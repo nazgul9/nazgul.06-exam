@@ -4,6 +4,7 @@ import Home from '../component/Home';
 import Navbar from '../component/Navbar';
 import Contacts from '../component/Contacts';
 import Kurs from '../component/Kurs';
+import Happyday from '../component/happyday'
 import Footer from '../component/Footer'
 import { Route } from "react-router-dom"
 import AOS from "aos"
@@ -20,7 +21,7 @@ const App = () => {
                 <Navbar />
             </header>
             <main>
-                <Route path="/home" exact>
+                <Route path="/" exact>
                     <Home />
                 </Route>
                 <Route path="/about" exact>
@@ -29,12 +30,17 @@ const App = () => {
                 <Route path="/kurs" exact>
                     <Kurs />
                 </Route>
+
+                <Route path="/happyday" exact>
+                    <Happyday />
+                </Route>
+
                 <Route path="/contacts" exact>
                     <Contacts />
                 </Route>
-                <Route path="/footer" exact>
-                    <Footer />
-                </Route>
+                <footer>   <Footer /></footer>
+
+
 
 
             </main>

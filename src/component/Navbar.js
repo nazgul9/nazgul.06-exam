@@ -10,7 +10,7 @@ const Navbar = () => {
             </button>
             <ul className="header__lyst">
                 <li className="header__item">
-                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="home" className="header__link">Главный</NavLink>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="/" className="header__link">Главный</NavLink>
                 </li>
                 <li className="header__item">
                     <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="about" className="header__link">О нас</NavLink>
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="kurs" className="header__link">Курсы</NavLink>
                 </li>
                 <li className="header__item">
-                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="" className="header__link">Мероприятия</NavLink>
+                    <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="happyday" className="header__link">Мероприятия</NavLink>
                 </li>
                 <li className="header__item">
                     <NavLink data-aos="flip-down" data-aos-delay="500" data-aos-duration to="Contacts" className="header__link">Contacts</NavLink>

@@ -6,12 +6,10 @@ const Home = () => {
 <h1 class="text-center mb-5" data-aos="flip-down" data-aos-delay="500" data-aos-duration> IT-Park Academy</h1>
         <div class=" flips">
               
-    
             <div class="flip " data-aos="flip-left"> 
             <img width="560" height="340" src="/img/itpark.jpg" alt="" />
             </div>
             <div class="flip" data-aos="flip-right" data-aos-delay="500" data-aos-duration>
-            <h2  data-aos="flip-down" data-aos-delay="500" data-aos-duration>Наш учитель <br /></h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ratione quaerat minus unde earum adipisci quod,
                  delectus aut beatae amet repellendus itaque numquam dicta reprehenderit aperiam, veritatis harum eius laudantium.</p>
             </div>

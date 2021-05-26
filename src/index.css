@@ -135,16 +135,7 @@ img {
   color:white
 }
 
-.bg-circle-outline a,
-a:hover,
-.media a:focus {
-  text-decoration: none !important;
-  outline: none;
-  color: #970b0b;
+.jumbotron{
+  background-color: rgb(115, 115, 173);
 }
 
-
-.copy-right {
-  background-color: black;
-  width: 100%
-}
